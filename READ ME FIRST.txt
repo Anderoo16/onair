@@ -1,0 +1,22 @@
+ON AIR FOR MACOS
+
+For Apple silicon Macs running macOS 14.2 or later, one Mac per sign.
+
+1. Unplug the sign's wall power and both LED plugs. Use a USB-C data
+   cable to connect the Mac directly to the XIAO ESP32-C3.
+2. Open ON AIR.app and choose ON AIR > Set Up Sign in the menu bar.
+3. Select the XIAO and enter the name and password of a 2.4 GHz
+   compatible Wi-Fi network. Click Install & Pair.
+4. Unplug the Mac cable. Reconnect the LEDs and power the sign through
+   its rear USB-C input. Allow Local Network access if asked.
+5. Choose Test Light for 10 Seconds. Then try a camera preview or call.
+
+The green dot means the sign replied and the light is off. A red
+pulsing dot means the sign confirmed the light is on. Open the menu
+for the sign connection, microphone, and camera status.
+
+The app is ad hoc signed. For macOS approval guidance, see
+https://support.apple.com/en-us/102445
+
+Source, build instructions, and release files:
+https://github.com/Anderoo16/onair

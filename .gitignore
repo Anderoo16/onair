@@ -1,0 +1,16 @@
+.DS_Store
+._*
+.build/
+build/
+dist/
+*.app/
+*.elf
+*.map
+*.bin
+*.zip
+*.tar.gz
+.env
+.env.*
+sign.json
+*.pem
+*.p12
